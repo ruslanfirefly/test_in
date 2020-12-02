@@ -1,0 +1,20 @@
+{
+  "name": "desing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_vars": "node ./build_scss_vars.js",
+    "build_css": "node-sass --output-style compressed  ./scss/main.scss ./css/main.css",
+    "build": "npm run build_vars && npm run build_css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0",
+    "style-dictionary": "^2.10.2"
+  }
+}

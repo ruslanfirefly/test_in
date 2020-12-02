@@ -1,0 +1,14 @@
+@import "variables";
+
+body{
+	background-color: azure;
+}
+
+
+.in-button {
+	color: white;
+	background-color: $primary-color;
+	width: 200px;
+	height: 50px;
+}
+
