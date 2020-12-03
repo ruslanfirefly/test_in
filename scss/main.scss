@@ -5,7 +5,7 @@ body{
 }
 
 .in-button {
-	color: white;
+	color: $button-text;
 	background-color: $primary-color;
 	width: 150px;
 	height: 50px;
@@ -21,7 +21,7 @@ body{
 }
 
 .in-input{
-	color: red;
+	color: $input-text;
 	border: 2px solid $primary-color;
 	border-radius: 5px;
 	padding: 5px;
